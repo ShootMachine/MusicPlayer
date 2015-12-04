@@ -21,6 +21,14 @@
 		E725356D19E77FCC009DDCF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E725354F19E77FCC009DDCF1 /* UIKit.framework */; };
 		E725357519E77FCC009DDCF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E725357319E77FCC009DDCF1 /* InfoPlist.strings */; };
 		E725357719E77FCC009DDCF1 /* _____DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E725357619E77FCC009DDCF1 /* _____DemoTests.m */; };
+		E725358919E77FF6009DDCF1 /* 情非得已.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E725358219E77FF6009DDCF1 /* 情非得已.lrc */; };
+		E725358A19E77FF6009DDCF1 /* 情非得已.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E725358319E77FF6009DDCF1 /* 情非得已.mp3 */; };
+		E725358B19E77FF6009DDCF1 /* 林俊杰-背对背拥抱.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E725358419E77FF6009DDCF1 /* 林俊杰-背对背拥抱.lrc */; };
+		E725358C19E77FF6009DDCF1 /* 林俊杰-背对背拥抱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E725358519E77FF6009DDCF1 /* 林俊杰-背对背拥抱.mp3 */; };
+		E725358D19E77FF6009DDCF1 /* 梁静茹-偶阵雨.lrc in Resources */ = {isa = PBXBuildFile; fileRef = E725358619E77FF6009DDCF1 /* 梁静茹-偶阵雨.lrc */; };
+		E725358E19E77FF6009DDCF1 /* 梁静茹-偶阵雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E725358719E77FF6009DDCF1 /* 梁静茹-偶阵雨.mp3 */; };
+		E725359019E7833B009DDCF1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E725358F19E7833B009DDCF1 /* AVFoundation.framework */; };
+		E725359319E7894C009DDCF1 /* ZMPlrc.m in Sources */ = {isa = PBXBuildFile; fileRef = E725359219E7894C009DDCF1 /* ZMPlrc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,15 @@
 		E725357219E77FCC009DDCF1 /* 音乐播放器DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "音乐播放器DemoTests-Info.plist"; sourceTree = "<group>"; };
 		E725357419E77FCC009DDCF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E725357619E77FCC009DDCF1 /* _____DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____DemoTests.m"; sourceTree = "<group>"; };
+		E725358219E77FF6009DDCF1 /* 情非得已.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "情非得已.lrc"; sourceTree = "<group>"; };
+		E725358319E77FF6009DDCF1 /* 情非得已.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "情非得已.mp3"; sourceTree = "<group>"; };
+		E725358419E77FF6009DDCF1 /* 林俊杰-背对背拥抱.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "林俊杰-背对背拥抱.lrc"; sourceTree = "<group>"; };
+		E725358519E77FF6009DDCF1 /* 林俊杰-背对背拥抱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林俊杰-背对背拥抱.mp3"; sourceTree = "<group>"; };
+		E725358619E77FF6009DDCF1 /* 梁静茹-偶阵雨.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "梁静茹-偶阵雨.lrc"; sourceTree = "<group>"; };
+		E725358719E77FF6009DDCF1 /* 梁静茹-偶阵雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "梁静茹-偶阵雨.mp3"; sourceTree = "<group>"; };
+		E725358F19E7833B009DDCF1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E725359119E7894C009DDCF1 /* ZMPlrc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMPlrc.h; sourceTree = "<group>"; };
+		E725359219E7894C009DDCF1 /* ZMPlrc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMPlrc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E725359019E7833B009DDCF1 /* AVFoundation.framework in Frameworks */,
 				E725354E19E77FCC009DDCF1 /* CoreGraphics.framework in Frameworks */,
 				E725355019E77FCC009DDCF1 /* UIKit.framework in Frameworks */,
 				E725354C19E77FCC009DDCF1 /* Foundation.framework in Frameworks */,
@@ -101,6 +119,7 @@
 		E725354A19E77FCC009DDCF1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E725358F19E7833B009DDCF1 /* AVFoundation.framework */,
 				E725354B19E77FCC009DDCF1 /* Foundation.framework */,
 				E725354D19E77FCC009DDCF1 /* CoreGraphics.framework */,
 				E725354F19E77FCC009DDCF1 /* UIKit.framework */,
@@ -112,11 +131,14 @@
 		E725355119E77FCC009DDCF1 /* 音乐播放器Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E725358019E77FF6009DDCF1 /* 音视频文件 */,
 				E725355A19E77FCC009DDCF1 /* ZMPAppDelegate.h */,
 				E725355B19E77FCC009DDCF1 /* ZMPAppDelegate.m */,
 				E725355D19E77FCC009DDCF1 /* Main.storyboard */,
 				E725356019E77FCC009DDCF1 /* ZMPViewController.h */,
 				E725356119E77FCC009DDCF1 /* ZMPViewController.m */,
+				E725359119E7894C009DDCF1 /* ZMPlrc.h */,
+				E725359219E7894C009DDCF1 /* ZMPlrc.m */,
 				E725356319E77FCC009DDCF1 /* Images.xcassets */,
 				E725355219E77FCC009DDCF1 /* Supporting Files */,
 			);
@@ -150,6 +172,19 @@
 				E725357319E77FCC009DDCF1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E725358019E77FF6009DDCF1 /* 音视频文件 */ = {
+			isa = PBXGroup;
+			children = (
+				E725358219E77FF6009DDCF1 /* 情非得已.lrc */,
+				E725358319E77FF6009DDCF1 /* 情非得已.mp3 */,
+				E725358419E77FF6009DDCF1 /* 林俊杰-背对背拥抱.lrc */,
+				E725358519E77FF6009DDCF1 /* 林俊杰-背对背拥抱.mp3 */,
+				E725358619E77FF6009DDCF1 /* 梁静茹-偶阵雨.lrc */,
+				E725358719E77FF6009DDCF1 /* 梁静茹-偶阵雨.mp3 */,
+			);
+			path = "音视频文件";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +264,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E725358C19E77FF6009DDCF1 /* 林俊杰-背对背拥抱.mp3 in Resources */,
+				E725358B19E77FF6009DDCF1 /* 林俊杰-背对背拥抱.lrc in Resources */,
 				E725356419E77FCC009DDCF1 /* Images.xcassets in Resources */,
 				E725355619E77FCC009DDCF1 /* InfoPlist.strings in Resources */,
 				E725355F19E77FCC009DDCF1 /* Main.storyboard in Resources */,
+				E725358D19E77FF6009DDCF1 /* 梁静茹-偶阵雨.lrc in Resources */,
+				E725358E19E77FF6009DDCF1 /* 梁静茹-偶阵雨.mp3 in Resources */,
+				E725358919E77FF6009DDCF1 /* 情非得已.lrc in Resources */,
+				E725358A19E77FF6009DDCF1 /* 情非得已.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +294,7 @@
 				E725356219E77FCC009DDCF1 /* ZMPViewController.m in Sources */,
 				E725355C19E77FCC009DDCF1 /* ZMPAppDelegate.m in Sources */,
 				E725355819E77FCC009DDCF1 /* main.m in Sources */,
+				E725359319E7894C009DDCF1 /* ZMPlrc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +499,7 @@
 				E725357C19E77FCC009DDCF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E725357D19E77FCC009DDCF1 /* Build configuration list for PBXNativeTarget "音乐播放器DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +508,7 @@
 				E725357F19E77FCC009DDCF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
